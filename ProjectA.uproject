@@ -5,18 +5,19 @@
 	"Description": "",
 	"Plugins": [
 		{
-			"Name": "ModelingToolsEditorMode",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
-			"Name": "PCGBiomeCore",
+			"Name": "Landmass",
 			"Enabled": true
 		},
 		{
-			"Name": "PCGBiomeSample",
+			"Name": "Water",
+			"Enabled": true
+		},
+		{
+			"Name": "LandscapePatch",
+			"Enabled": true
+		},
+		{
+			"Name": "ModelingToolsEditorMode",
 			"Enabled": true
 		},
 		{
@@ -24,11 +25,11 @@
 			"Enabled": true
 		},
 		{
-			"Name": "PCGExternalDataInterop",
+			"Name": "PCGGeometryScriptInterop",
 			"Enabled": true
 		},
 		{
-			"Name": "PCGGeometryScriptInterop",
+			"Name": "PCGExternalDataInterop",
 			"Enabled": true
 		},
 		{
@@ -40,7 +41,15 @@
 			"Enabled": true
 		},
 		{
-			"Name": "DisasterRecoveryClient",
+			"Name": "HDRIBackdrop",
+			"Enabled": true
+		},
+		{
+			"Name": "PCGBiomeCore",
+			"Enabled": true
+		},
+		{
+			"Name": "PCGBiomeSample",
 			"Enabled": true
 		}
 	]
